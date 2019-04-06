@@ -15,13 +15,14 @@ Python 3.6
 
 ## Application requirements
  * Ensure you have Python3.6 installed in your computer. you can download it by running this command
+
 $ sudo apt-get update sudo apt-get install python3.6.
 
 * Ensure you have PiP installed in your computer, you can download it by running this command:
-$ python get-pip.py
+ $ python get-pip.py
 
 ## Project setup instruction/ installations
-* From the repository, click + in the global sidebar and select Clone this repository .
+* From the repository, click + in the global sidebar and select Clone this repository 
 
 * Copy the clone command.
 
