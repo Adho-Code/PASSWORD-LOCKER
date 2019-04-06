@@ -13,6 +13,8 @@ Python 3.6
 
 ## Known Bugs
 
+currectly there was no known bugs
+
 ## Application requirements
  * Ensure you have Python3.6 installed in your computer. you can download it by running this command
 
