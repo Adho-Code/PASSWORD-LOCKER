@@ -55,3 +55,82 @@ def generatePassword(num):
    return genpas
 
 def main():
+
+print('\n')
+
+    print('{:_^20}'.format('login'))
+
+    print('\n')
+
+    print("Please idetify yourself using your locker USERNAME")
+
+    user_name = input().upper()
+
+    print(f"Hello {user_name}, welcome to your password manager, how can we help you today")
+
+    print('\n')
+
+    while True:
+
+        list =('''
+        1-Register a new account
+        2-Display accounts
+        3-Find accounts
+        4-Exit the locker\n''')
+        print(list)
+        short_code = input().lower()
+
+        if short_code == '1':
+
+            print(f"{user_name} Please FILL IN the following")
+
+            print("-"*10)
+
+            print ("Account name")
+
+            account_name = input()
+
+            print('\n')
+
+            print("Username")
+            username = input()
+
+            print('\n')
+
+            print("Do you want a randomly generated password?")
+
+
+            print("yes", "no")
+            ans = input().lower()
+
+            if ans == 'yes':
+
+                genpas = print(generatePassword(10))
+
+                save_details(create_account(account_name,username,password,confirm_password))
+
+                print ('\n')
+
+
+                print(f"{user_name} {account_name} account of {username} created and password saved")
+
+                print ('\n')
+
+
+            elif ans == 'no':
+                password = getpass.getpass('password:')
+                print("*********")
+
+                confirm_password = getpass.getpass('confirm password:')
+                print("*********")
+
+                save_details(create_account(account_name,username,password,confirm_password))
+
+                print ('\n')
+
+                print(dash)
+
+                print(f"Hey {user_name}")
+                print(f"Your account name is {account_name}.com")
+                print(f"Your account username is {username}")
+                print("passwords encripted but can be viwed using option 2 / 3")
