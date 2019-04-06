@@ -41,12 +41,12 @@ BDD
 
 |  Behavior                |	  Result  |
 |--------------------------|--------------|
-User types in 1 when requested	User is prompted to input account details
-User types in 2	User is able to view all accounts created by him/her
-User types in 3	User is able to search for saved accounts using their username
-User types in 4	The application closes
+|   User types in 1 when requested  |	User is prompted to input account details   |
+|   User types in 2       |	User is able to view all accounts created by him/her  |
+|   User types in 3       |	User is able to search for saved accounts using their  username  | 
+|   User types in 4       |	The application closes |
 
-TDD
+##  TDD
 -To test the app, run this commands in the terminal;
 
 $ python3.6 user_test.py
@@ -54,14 +54,14 @@ $ python3.6 user_test.py
 $ python3.6 credential_test.py
 
 
-Contact Information
-Email-(adhoadhigal@gmail.com)
-Phone No. 0748393309
+##  Contact Information
+   * Email-(adhoadhigal@gmail.com)
+   * Phone No. 0748393309
 
-License
+## License
 MIT License
 
-Copyright (c) [2019] [Adho Galgallo]
+##  Copyright (c) [2019] [Adho Galgallo]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
