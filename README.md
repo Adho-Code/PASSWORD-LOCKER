@@ -14,26 +14,26 @@ Python 3.6
 ## Known Bugs
 
 ## Application requirements
-Ensure you have Python3.6 installed in your computer. you can download it by running this command
+ * Ensure you have Python3.6 installed in your computer. you can download it by running this command
 $ sudo apt-get update sudo apt-get install python3.6.
 
-Ensure you have PiP installed in your computer, you can download it by running this command:
+* Ensure you have PiP installed in your computer, you can download it by running this command:
 $ python get-pip.py
 
-Project setup instruction/ installations
-From the repository, click + in the global sidebar and select Clone this repository .
+## Project setup instruction/ installations
+* From the repository, click + in the global sidebar and select Clone this repository .
 
-Copy the clone command.
+* Copy the clone command.
 
-From a terminal window, change to the local directory where you want to clone your repository.
+* From a terminal window, change to the local directory where you want to clone your repository.
 
 or just use this
  $ git clone https://github.com/adhoadhi/PASSWORD-LOCKER.git
 
-Run the following command to make the app executable;
+* Run the following command to make the app executable;
 $ chmod +x run.py
 
-Run this command to open the app
+* Run this command to open the app
 $ ./run.py
 
 ## Behavior Driven Development
