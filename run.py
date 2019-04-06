@@ -20,14 +20,16 @@ def save_details(user):
     """
     function to save save_details
     """
-    user.save_detail()
+
+     user.save_detail()
 
 def display_all_details():
 
     """
     function used to return all saved save_details
     """
-    return User.display_all_details()
+
+  return User.display_all_details()
 
 def check_existing_user(username):
 
@@ -56,7 +58,7 @@ def generatePassword(num):
 
 def main():
 
-print('\n')
+    print('\n')
 
     print('{:_^20}'.format('login'))
 
