@@ -57,7 +57,7 @@ def generatePassword(num):
 def main():
     
 
-    
+
     print('\n')
 
     print('{:_^20}'.format('login'))
@@ -80,6 +80,9 @@ def main():
         3-Find accounts
         4-Exit the locker\n''')
         print(list)
+
+
+
         short_code = input().lower()
 
         if short_code == '1':
@@ -136,7 +139,8 @@ def main():
                 print(f"Your account name is {account_name}.com")
                 print(f"Your account username is {username}")
                 print("passwords encripted but can be viwed using option 2 / 3")
-print(dash)
+                
+                print(dash)
 
                 print ('\n')
 
