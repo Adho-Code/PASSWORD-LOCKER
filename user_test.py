@@ -12,11 +12,11 @@ class TestUser(unittest.TestCase):
         """
         this method runs before each test case, carries the instrctions of what is to be done
         """
- def tearDown(self):
+    def tearDown(self):
 
-            """
-            tearDown method does clean up after each test case has runself.
-            """
+        """
+        tearDown method does clean up after each test case has runself.
+        """
 
         self.new_user = User("facebook","chukula galgallo","28965755","28965755")
 
