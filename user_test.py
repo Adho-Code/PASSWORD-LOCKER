@@ -12,6 +12,7 @@ class TestUser(unittest.TestCase):
         """
         this method runs before each test case, carries the instrctions of what is to be done
         """
+        self.new_user = User("facebook","chukula galgallo","28965755","28965755")
     def tearDown(self):
 
         """
