@@ -20,14 +20,14 @@ def save_details(user):
     """
     function to save save_details
     """
-     user.save_detail()
+    user.save_detail()
 
 def display_all_details():
 
     """
     function used to return all saved save_details
     """
-  return User.display_all_details()
+    return User.display_all_details()
 
 def check_existing_user(username):
 
@@ -139,7 +139,7 @@ def main():
                 print(f"Your account name is {account_name}.com")
                 print(f"Your account username is {username}")
                 print("passwords encripted but can be viwed using option 2 / 3")
-                
+
                 print(dash)
 
                 print ('\n')
